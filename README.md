@@ -16,7 +16,7 @@ We have published this work in our ICSE'18 paper:
 # Dataset
 We adopt the UI testing to explore more than 5000 Android Apps crawled from the Google Play, and then take the screenshots as the UI design image and also collect the corresponding code.
 There are totally 29,887 screenshots (We have resize it as 300 * 200 and rotate them 90 degree for training), and corresponding source code.
-It can be downloaded in xxx and decompressed it for using.
+It can be downloaded in https://drive.google.com/open?id=17cRSdNPd7GoNuirE983S467kWbOLtiuw and decompressed it for using.
 
 # Prerequsites
 The project is written in [Torch](http://torch.ch), and the evaluation needs Python.
@@ -56,7 +56,7 @@ so we need to specify a `data_base_dir` storing the images, a `label_path` stori
 ...
 ```
 where `<label_idx>` denotes the line index of the label (starting from 0).
-We have stored our trained model as `final-model`, training data as `train.lst`, validation data as `validate.lst`, testing data as `test_shuffle.lst`.
+We have stored our trained model in https://drive.google.com/open?id=10vStYFIwA2ofXSzaUWA4JSw69XH6U3b6, training data as `train.lst`, validation data as `validate.lst`, testing data as `test_shuffle.lst`.
 The raw image data is in `processedImage`, and all code data in `XMLsequence.txt` with the vocabulary as `xml_vocab.txt`.
 
 ## Train the Model
