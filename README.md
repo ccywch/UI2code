@@ -18,6 +18,8 @@ We adopt the UI testing to explore more than 5000 Android Apps crawled from the 
 There are totally 29,887 screenshots (We have resize it as 300 * 200 and rotate them 90 degree for training), and corresponding source code.
 It can be downloaded in https://drive.google.com/open?id=17cRSdNPd7GoNuirE983S467kWbOLtiuw and decompressed it for using.
 
+We use an automated GUI testing tool for android apps, named [Stoat](https://tingsu.github.io/files/stoat.html), to fully-automatically collect UI dataset. Stoat is easy and open to use. 
+
 # Prerequsites
 The project is written in [Torch](http://torch.ch), and the evaluation needs Python.
 
